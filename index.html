@@ -4,45 +4,86 @@
         <meta charset="UTF-8">
         <title>Jose Eduardo's Personal Web Site</title>
     </head>
+    <style>
+        body{
+            background-color: burlywood;
+            list-style: disc;
+        }
+    </style>
     <body>
         <!--Profile table-->
-        <table cellspacing="30" cellpadding="5">
+        <table cellspacing="30" cellpadding="6">
             <tr>
                 <td><img src="images/profile.jpg" alt="No found picture"></td>
                 <td>
                     <h1>Jose Eduardo Rodríguez Reyes</h1>
-                    <p >I´m a iOS and Android Developer</p>
-                    <p><em>I love writing code, and I also love the <strong>Mobile Development</strong></em> </p>
+                    <p>Soy desarrollador de aplicaciones móviles nativas para sistemas operativos iOS y Android</p>
+                    <p><em>Me encanta escribir código, crear sistema para la resolucion de sistemas <br> y me gusta el mundo del desarrollo de <strong>Aplicaciones Móviles</strong></em> </p>
+                    <button onclick="location.href='Proyectos.html'"><strong>Mis Proyectos</strong></button>
                 </td>
             </tr>
         </table>
         <hr>
-        <h3>Books</h3>
-        <!--Vamos a ver las listas-->
-        <ul>
-            <!--Unordered lists-->
-            <li>El manifiesto comunista</li>
-            <li>La vuelta al mundo en 80 dias</li>
-            <li>Mi Lucha</li>
-            <li>Game of Thrones</li>
-        </ul>
-        <br><hr><br>
-        <h3><em>Education</em></h3>
-        <ol>
-            <!--Ordered Lists-->
-            <li>Instituto Politecnico Nacional
-                <br>
-                Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
-            </li>
-            <li>Colegio de bachilleres del Estado de Oaxaca</li>
-        </ol>
+    </body>
+        <body>
+            <h2>Contactame</h2>
+            <table cellspacing="15" cellpadding="4">
+                <tr>
+                    <td><div>Sigueme en Instagram</div></td>
+                    <td><div>Contactame en Telegram</div></td>
+                    <td><div>Canal en Telegram<br>Hablamos sobre iOS; Swift. Android y Kotlin.</div></td>
+                    <td><div><a href="LogIn.html" target="_blank">Email</a></div></td>
+                    <td><div>Numero telefonico</div></td>
+                    <td><div><a href="https://www.linkedin.com/in/jos%C3%A9-eduardo-rodr%C3%ADguez-reyes-9660621b6/" target="_blank">LinkedIn</a></div></td>
+
+                </tr>
+                <tr>
+                    <td>@joseeduardo.r.rodriguez</td>
+                    <td>@JoseEdu24</td>
+                    <td>t.me/iosandswiftinspanish</td>
+                    <td>joseduardorodriguez24@gmail.com</td>
+                    <td><strong>+52 1 9514692184</strong></td>
+                    <td><img src="images/LinkedIn.png" alt="No found picture"></td>
+                </tr>
+            </table>
+    </body>
         <hr>
-        <h3>Programming Languages</h3>
+        <body>
+            <h2>Perfiles</h2>
+            <table border="1" cellspacing="1">
+                <thead>
+                <!--Table row-->
+                <tr>
+                    <!--Table header-->
+                    <th></th>
+                    <th>Perfil en redes sociales</th>
+                    <th>Link</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><img src="images/Stack.png" alt="No found picture"></td>
+                    <td><strong>Stackoverflow</strong></td>
+                    <td><a href="https://stackoverflow.com/users/16409810/jos%c3%a9-eduardo-rodriguez-reyes" target="_blank">Stackoverflow</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/GitHub.png" alt="No found picture"></td>
+                    <td><strong>GitHub</strong></td>
+                    <td><a href="https://github.com/eduardo-rodriguez-art" target="_blank">GitHub</a></td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <p>Cada uno de los links tiene un enlace a mis distintos perfiles</p>
+                </tfoot>
+            </table>
+            <br><hr>
+    </body>
+        <h3>Lenguajes de programación</h3>
         <table cellspacing="10">
             <thead>
                 <tr>
-                    <th>Technologies</th>
-                    <th>Knowledge</th>
+                    <th>Tecnologias</th>
+                    <th>Nivel de Conocimiento</th>
                 </tr>
             </thead>
             <tbody>
@@ -54,6 +95,15 @@
                     <th>Kotlin</th>
                     <td>⭐️⭐️⭐️⭐️</td>
                 </tr>
+
+                <tr>
+                    <th>Objective-C</th>
+                    <td>⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                    <th>C/C++</th>
+                    <td>⭐️⭐️⭐️⭐️</td>
+                </tr>
                 <tr>
                     <th>Java</th>
                     <td>⭐️⭐️⭐️</td>
@@ -62,39 +112,40 @@
                     <th>Python</th>
                     <td>⭐️⭐️⭐️</td>
                 </tr>
-                <tr>
-                    <th>Objective-C</th>
-                    <td>⭐️</td>
-                </tr>
-                <tr>
-                    <th>JavaScript</th>
-                    <td>⭐️</td>
-                </tr>
             </tbody>
         </table>
-        
         <hr>
-        <h3>Hyperlinks</h3>
-        <h4>Relationship Apps</h4>
-        <!--Con este link, la infomacion se recarga pero en la misma pagina-->
-        <a href="https://www.youtube.com/">Go to youtube</a>
-        <!--Con este link pasaras a otro archivo html-->
-        <br>
-        <a href="hobbies.html">Go to my hobbies</a>
-        <br>
-        <!--target="_blank" hace que el link se abra en otra ventana-->
-        <a href="https://www.appbrewery.co/" target="_blank">Go to APP Brewery by Angela Yu</a>
-        <br><br>
-        <a href="Links.html" target="_blank">My Social Networks</a>
-        <hr>
-        <br>
-        <a href="LogIn.html">Log In</a>
-        <br><br>
-        <!--Footer page-->
-        
-    </body>
+        <h2>Sobre Mi</h2>
+        <p>
+            Mi nombre es José Eduardo Rodríguez Reyes, soy estudiante de Ingenieria Mecatronica<br>
+            en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas <br>
+            del Instituto Politécnico Nacional. <strong>UPIITA-IPN.</strong><br>
+            Soy apasionante de las tecnologías de Apple y Google
+            para la creación de aplicaciones móviles. <br>
+            Me gusta ser autodidacta, soy estudiante activo en Udemy, Udacity y Platzi <br>
+            Actualmente resido en la Ciudad de México.
+        </p>
     <hr>
+        <table cellspacing="20">
+    </body>
+            <h2>Mis plataformas de aprendizaje</h2>
+            <tbody>
+            <tr>
+                <td><a href="https://www.udemy.com/user/jose-eduardo-rodriguez-3/" target="_blank">Udemy</a></td>
+                <td><a href="https://platzi.com/p/joseduardorodriguezreyes/" target="_blank">Platzi</a></td>
+                <td><a href="https://classroom.udacity.com/" target="_blank">Udacity</a></td>
+            </tr>
+            <tr>
+                <td><img src="images/Udemy.png" alt="No found picture"></td>
+                <td><img src="images/Platzi.png" alt="No found picture"></td>
+                <td><img src="images/Udacity.png" alt="No found picture"></td>
+            </tr>
+            </tbody>
+        </table>
+    <hr>
+    <h2><a href="hobbies.html" target="_blank">Mis Hobbies</a></h2>
+    <br><hr>
     <footer>
-        <h3>Pie de pagina</h3>
+        <label>Todos los derechos reservados © 2021</label>
     </footer>
 </html>
