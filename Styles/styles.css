@@ -1,10 +1,45 @@
+li {
+    color: #142222;
+    font-size: 20px;
+    list-style: armenian;
+    margin-left: 15px;
+}
 body{
     background-color: #e6eeee;
     list-style: disc;
 }
-h1, h2, h3, h4 {
+h2, h3, h4 {
     color: #66BFBF;
-    font-size: 30;
+    font-size: 33px;
+    list-style: armenian;
+    margin-left: 15px;
+}
+h1 {
+    color: #66BFBF;
+    font-size: 65px;
+    margin-left: 20px;
+}
+footer {
+    margin-bottom: 0%;
+    margin-left: 40%;
+}
+.top-container {
+
+}
+.middle-container {
+    
+}
+.bottom-container {
+    
+}
+img {
+    border-radius: 3%;
+    border: 25px solid transparent;
+}
+button {
+    width: 30%;
+    height: 50%;
+    position: relative;
 }
 hr{
     background-color: rgb(136, 121, 92);
@@ -15,10 +50,12 @@ hr{
     width: 70%;
 }
 p {
+    font-size: 21px;
     color: #3b0303;
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;
+    margin-left: 10px;
 }
 @keyframes slidein {
 from {

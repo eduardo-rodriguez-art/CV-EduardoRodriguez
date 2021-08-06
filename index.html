@@ -4,35 +4,31 @@
         <meta charset="UTF-8">
         <title>Jose Eduardo Personal Web Site</title>
         <link rel="stylesheet" href="Styles/styles.css">
+        <link rel="icon" href="images/favicon.ico">
     </head>
     
     <body>
         <!--Profile table-->
-        <table cellspacing="30" cellpadding="6">
-            <tr>
-                <td><img src="images/profile.jpg" alt="No found picture"></td>
-                <td>
-                    <h1>José Eduardo Rodríguez Reyes</h1>
-                    <p>Soy desarrollador de aplicaciones móviles nativas para sistemas operativos iOS y Android.</p>
-                    <p><em>Me encanta escribir código, crear sistemas para la resolución de problemas y,<br>sobretodo, me gusta el mundo del desarrollo de <strong>Aplicaciones Móviles</strong>.</em> </p>
-                    <button onclick="location.href='iOS.html'"><strong>Mis Proyectos iOS</strong></button>
-                    <button onclick="location.href='Android.html'"><strong>Mis Proyectos Android</strong></button>
-                </td>
-            </tr>
-        </table>
+        <div class="top-container">
+            <h1>José Eduardo Rodríguez Reyes</h1>
+            <p>Desarrollador de Aplicaciones Móviles Nativas.</p>
+            <p>Científico de Datos.</p>
+            <p>Desarrollador de Sistemas Embebidos.</p>
+            <button onclick="location.href='iOS.html'"><strong>Mis Proyectos iOS</strong></button>
+            <button onclick="location.href='Android.html'"><strong>Mis Proyectos Android</strong></button>
+        </div> <br>
         <hr>
-    </body>
-        <body>
+        <div class="top-container">
             <h2><a href="LogIn.html" target="_blank">Contactame</a></h2>
             <table cellspacing="15" cellpadding="4">
                 <tr>
-                    <td><div>Sigueme en Instagram</div></td>
-                    <td><div>Contactame en Telegram</div></td>
-                    <td><div>Canal en Telegram<br>Hablamos sobre iOS; Swift. Android y Kotlin.</div></td>
-                    <td><div>Correo Electrónico</div></td>
-                    <td><div>Numero telefonico</div></td>
-                    <td><div><a href="https://www.linkedin.com/in/jos%C3%A9-eduardo-rodr%C3%ADguez-reyes-9660621b6/" target="_blank">LinkedIn</a></div></td>
-
+                    <td>Sigueme en Instagram</td>
+                    <td>Contactame en Telegram</td>
+                    <td>Canal en Telegram<br>Hablamos sobre iOS, Swift. Android y Kotlin.</td>
+                    <td>Correo Electrónico</td>
+                    <td>Numero telefonico</td>
+                    <td><a href="https://www.linkedin.com/in/jos%C3%A9-eduardo-rodr%C3%ADguez-reyes-9660621b6/" target="_blank">LinkedIn</a></div></td>
+    
                 </tr>
                 <tr>
                     <td>@joseeduardo.r.rodriguez</td>
@@ -42,21 +38,20 @@
                     <td><strong>+52 1 9514692184</strong></td>
                     <td><img src="images/LinkedIn.png" alt="No found picture"></td>
                 </tr>
-            </table>
-    </body>
-        <hr>
-        <body>
+            </table><hr>
+        </div>
+        <div class="middle-container">
             <h2>Perfiles</h2>
             <table border="1" cellspacing="1">
-                <thead>
-                <!--Table row-->
-                <tr>
-                    <!--Table header-->
-                    <th></th>
-                    <th>Perfil en redes sociales</th>
-                    <th>Link</th>
-                </tr>
-                </thead>
+            <thead>
+            <!--Table row-->
+            <tr>
+                <!--Table header-->
+                <th></th>
+                <th>Perfil en redes sociales</th>
+                <th>Link</th>
+            </tr>
+            </thead>
                 <tbody>
                 <tr>
                     <td><img src="images/Stack.png" alt="No found picture"></td>
@@ -74,7 +69,9 @@
                 </tfoot>
             </table>
             <br><hr>
-    </body>
+        </div>
+        
+    <div class="middle-container">
         <h3>Lenguajes de programación</h3>
         <table cellspacing="10">
             <thead>
@@ -122,9 +119,10 @@
             Me gusta ser autodidacta, soy estudiante activo en Udemy, Udacity y Platzi <br>
             Actualmente resido en la Ciudad de México.
         </p>
-    <hr>
+        <hr>
         <table cellspacing="20">
-    </body>
+    </div>
+    <div>
             <h2>Mis plataformas de aprendizaje</h2>
             <tbody>
             <tr>
@@ -139,15 +137,19 @@
             </tr>
             </tbody>
         </table>
-    <hr>
+        <hr>
+    </div>
+    <div class="bottom-container">
         <h2>Idiomas</h2>
         <ol>
             <li>Idioma Inglés Nivel B1</li>
             <li>Idioma Ruso Nivel A1</li>
         </ol>
-    <br><hr>
-    <h2><a href="hobbies.html" target="_blank">Mis Hobbies</a></h2>
-    <br><hr>
+        <br><hr>
+        <h2><a href="hobbies.html" target="_blank">Mis Hobbies</a></h2>
+    
+    </div><br><hr>
+    
     <footer>
         <label>Todos los derechos reservados © 2021</label>
     </footer>
